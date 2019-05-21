@@ -15,7 +15,7 @@ const printQuestionMarks = num => {
 
 const objToSql = obj => {
   // column1=value, column2=value2,...
-  var arr = []
+  let arr = []
 
   for (let key in obj) {
     arr.push(key + "=" + obj[key])
